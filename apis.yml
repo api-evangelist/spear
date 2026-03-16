@@ -3,7 +3,7 @@ description: Spear is a collaborative platform for API development, testing, and
 image: https://spear.dev/images/logo.png
 url: https://spear.dev
 created: '2024'
-modified: '2024'
+modified: '2026-03-16'
 apis:
 - name: Spear Core API
   description: Main API for managing workspaces, projects, and API collections
