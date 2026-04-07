@@ -14,9 +14,9 @@ apis:
     baseURL: https://api.spear.dev/v1
     tags:
       - API Development
-      - Testing
-      - Documentation
       - Collaboration
+      - Documentation
+      - Testing
     properties:
       - type: Documentation
         url: https://docs.spear.dev/api
