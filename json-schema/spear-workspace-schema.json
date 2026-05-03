@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/spear/main/json-schema/spear-workspace-schema.json",
+  "title": "Spear Workspace",
+  "description": "A collaborative workspace for organizing API collections, projects, and team resources in the Spear platform",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the workspace"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the workspace"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the workspace purpose and contents"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-safe identifier for the workspace"
+    },
+    "visibility": {
+      "type": "string",
+      "enum": ["private", "team", "public"],
+      "description": "Access level for the workspace"
+    },
+    "members": {
+      "type": "array",
+      "description": "Team members with access to this workspace",
+      "items": {
+        "type": "object",
+        "properties": {
+          "userId": {"type": "string"},
+          "role": {"type": "string", "enum": ["owner", "editor", "viewer"]}
+        }
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the workspace was created"
+    },
+    "modified": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the workspace was last modified"
+    }
+  },
+  "required": ["id", "name"]
+}

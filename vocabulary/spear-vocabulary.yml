@@ -1,0 +1,67 @@
+name: Spear Vocabulary
+description: >-
+  Domain vocabulary for the Spear developer platform, covering API development
+  workflow concepts, workspace collaboration, and API delivery practices.
+version: '1.0'
+created: '2026-05-02'
+modified: '2026-05-02'
+
+terms:
+  - term: API Development Platform
+    definition: >-
+      An integrated environment providing tools for the complete API development
+      lifecycle including design, testing, documentation, and delivery. Platforms
+      typically provide workspace organization, team collaboration, and integration
+      with CI/CD pipelines.
+    tags:
+      - Platform
+      - Developer Tools
+
+  - term: Workspace
+    definition: >-
+      A collaborative environment where teams organize and manage their API
+      collections, projects, and related resources. Workspaces provide access
+      control, version management, and shared tooling for API development teams.
+    tags:
+      - Collaboration
+      - Organization
+
+  - term: API Collection
+    definition: >-
+      A organized grouping of API requests, operations, or specifications that
+      represent a logical domain or service boundary. Collections are the primary
+      unit of organization in API development platforms.
+    tags:
+      - Organization
+      - API Design
+
+  - term: API Testing
+    definition: >-
+      The practice of verifying API behavior through automated or manual requests,
+      including functional testing, performance testing, and contract validation.
+    tags:
+      - Testing
+      - Quality
+
+  - term: Team Collaboration
+    definition: >-
+      Features enabling multiple developers to work together on API design,
+      testing, and documentation, including shared workspaces, real-time
+      editing, comments, and access control.
+    tags:
+      - Collaboration
+      - Productivity
+
+categories:
+  - name: Platform
+    description: Core platform concepts
+    terms:
+      - API Development Platform
+      - Workspace
+
+  - name: Development
+    description: API development workflow concepts
+    terms:
+      - API Collection
+      - API Testing
+      - Team Collaboration

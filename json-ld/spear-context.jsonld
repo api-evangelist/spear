@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "spear": "https://spear.dev/vocab/",
+    "name": "name",
+    "description": "description",
+    "url": "url",
+    "Workspace": {
+      "@id": "spear:Workspace",
+      "@type": "@id"
+    },
+    "Collection": {
+      "@id": "spear:Collection",
+      "@type": "@id"
+    },
+    "Project": {
+      "@id": "spear:Project",
+      "@type": "@id"
+    },
+    "Member": {
+      "@id": "spear:Member",
+      "@type": "@id"
+    },
+    "workspaceId": {
+      "@id": "spear:workspaceId",
+      "@type": "xsd:string"
+    },
+    "slug": {
+      "@id": "spear:slug",
+      "@type": "xsd:string"
+    },
+    "visibility": {
+      "@id": "spear:visibility",
+      "@type": "xsd:string"
+    },
+    "role": {
+      "@id": "spear:role",
+      "@type": "xsd:string"
+    },
+    "createdAt": {
+      "@id": "spear:createdAt",
+      "@type": "xsd:dateTime"
+    },
+    "modifiedAt": {
+      "@id": "spear:modifiedAt",
+      "@type": "xsd:dateTime"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  }
+}

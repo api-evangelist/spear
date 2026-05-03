@@ -1,0 +1,18 @@
+{
+  "title": "Spear Workspace Example",
+  "description": "Example of a Spear workspace resource for organizing API collections and team collaboration",
+  "example": {
+    "id": "ws_01HABCD",
+    "name": "Payments API Team",
+    "description": "Workspace for the payments team managing the billing and payment processing APIs",
+    "slug": "payments-api-team",
+    "visibility": "team",
+    "members": [
+      {"userId": "user_01HXYZ", "role": "owner"},
+      {"userId": "user_01HABC", "role": "editor"},
+      {"userId": "user_01HWXY", "role": "viewer"}
+    ],
+    "created": "2025-03-01T10:00:00Z",
+    "modified": "2026-04-15T14:30:00Z"
+  }
+}
