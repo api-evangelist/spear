@@ -41,6 +41,8 @@ common:
     name: Website | Spear
     type: Website
     description: 'null'
+  - type: LLMsTxt
+    url: https://spear.dev/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
