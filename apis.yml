@@ -41,7 +41,7 @@ common:
     name: Website | Spear
     type: Website
     description: 'null'
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://spear.dev/llms.txt
 maintainers:
   - FN: Kin Lane
