@@ -37,6 +37,8 @@ apis:
       providing tools for API design, collaboration, and delivery through
       a unified workspace experience.
 common:
+  - type: DomainSecurity
+    url: security/spear-domain-security.yml
   - url: https://spear.dev
     name: Website | Spear
     type: Website
