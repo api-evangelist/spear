@@ -7,6 +7,17 @@ description: >-
   tools for API design, collaboration, and delivery. The platform enables teams
   to build, test, and ship APIs faster through a unified workspace experience.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
