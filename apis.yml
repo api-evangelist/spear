@@ -60,6 +60,12 @@ apis:
       providing tools for API design, collaboration, and delivery through
       a unified workspace experience.
 common:
+  - type: Plans
+    url: plans/spear-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/spear-rate-limits.yml
+  - type: FinOps
+    url: finops/spear-finops.yml
   - type: DomainSecurity
     url: security/spear-domain-security.yml
   - url: https://spear.dev
