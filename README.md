@@ -64,52 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace experience.
+Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery. The platform enables teams to build, test, and ship APIs faster through a unified workspace experience.
 
-**URL:** [https://spear.dev](https://spear.dev)
+**Areas:** API Development · Collaboration · Developer Tools · Platform
 
-## Scope
+## Spear on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Spear is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/spear/](https://apis.io/providers/spear/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-API Development, Collaboration, Developer Tools, Platform
+- [Spear](https://apis.io/apis/spear/spear/) — Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-05-02
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### JSON Schema (1)
 
-### JSON Schema
+The data models the API reads and writes.
 
-- [spear-workspace-schema.json](json-schema/spear-workspace-schema.json) — Schema for Spear Workspace resources
+- [Spear Workspace](https://apis.io/schemas/spear/spear-workspace/)
 
-### JSON Structure
+#### JSON Structure (1)
 
-- [spear-workspace-structure.json](json-structure/spear-workspace-structure.json) — Structure documentation for Workspace and related resources
+Data models expressed in JSON Structure.
 
-### JSON-LD
+- [Spear Workspace Structure](https://apis.io/json-structure/spear/spear-workspace-structure/)
 
-- [spear-context.jsonld](json-ld/spear-context.jsonld) — JSON-LD context mapping Spear vocabulary to linked data semantics
+#### JSON-LD (1)
 
-### Examples
+Linked-data contexts for the provider's vocabulary.
 
-- [spear-workspace-example.json](examples/spear-workspace-example.json) — Example Spear workspace resource
+- [Spear Context](https://apis.io/jsonld/spear/spear-context/)
 
-### Vocabulary
+#### Vocabulary (1)
 
-- [spear-vocabulary.yml](vocabulary/spear-vocabulary.yml) — Domain vocabulary for Spear API development platform concepts
+The provider's domain terms, defined.
 
-## Resources
+- [Spear Vocabulary](https://apis.io/vocabularies/spear/spear-vocabulary/)
+
+#### Examples (1)
+
+Example requests and responses.
+
+- [Spear Workspace Example](https://apis.io/examples/spear/spear-workspace-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Spear — jsonschema rules](https://apis.io/rules/spear/spear-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Spear Domain Security](https://apis.io/security/spear/spear-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Spear Plans Pricing](https://apis.io/plans/spear/spear-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Spear Rate Limits](https://apis.io/rate-limits/spear/spear-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Spear Finops](https://apis.io/finops/spear/spear-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://spear.dev)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 11.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 10.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/spear/](https://apis.io/providers/spear/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Spear: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/spear/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
